@@ -1,0 +1,22 @@
+{
+  "status": "healthy",
+  "timestamp": "2024-02-29T10:30:00Z",
+  "service": "data-parser",
+  "version": "1.2.3",
+  "dependencies": {
+    "database": "online",
+    "message_queue": "connected",
+    "api": "responsive"
+  },
+  "metrics": {
+    "cpu_usage": 0.15,
+    "memory_usage": 0.60,
+    "requests_per_second": 120,
+    "errors_per_second": 0.5
+  },
+  "environment": {
+    "hostname": "data-parser-server-01",
+    "os": "Linux",
+    "java_version": "11.0.12"
+  }
+}
